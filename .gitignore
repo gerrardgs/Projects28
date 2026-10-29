@@ -1,0 +1,26 @@
+# ==============================================================================
+# Projects 28 - Business Intelligence (Power BI & Tableau) .gitignore
+# ==============================================================================
+
+# Operating System & Editor Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Large Datasets & Raw Imports Exceeding GitHub's 100 MB Limit
+# Note: GitHub hard-rejects files >100MB. Raw imports & heavy flat files are documented in README.md.
+da/PowerBI/Jobs_BigQuery_Import-003.pbix
+**/Jobs_BigQuery_Import-003.pbix
+**/job_postings_flat.csv
+
+# Temporary Power BI & Tableau cache / backup files
+*.tmp
+*.temp
+*.~*
+*.crdownload
